@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/** Start header Section**/ 
+header{background: linear-gradient(to bottom, #dd2476, #ff512f);}
+
+
+/**** navbar *****/
+header .navbar-default { background: transparent; border: none;color:#fff;}
+
+/*navbar brand */ 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{color:#fff;} 
+
+/*phoneView navbar menu icon  */ 
+.navbar-default .navbar-toggle .icon-bar{ background-color: #fff;}
+.navbar-default .navbar-toggle {border-color: #fff;}
+
+/* navbar text color control */ 
+header .navbar-default .navbar-nav a,.navbar-default .navbar-brand{color: #fff;text-transform: uppercase;}
+header .navbar-default .navbar-nav>li>a:hover{color: #000;}
+.navbar-default .navbar-nav > li > a:focus{color: #fff}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{color:#fff;}
+
+/* navbar dropdown menu */
+header .navbar .dropdown-content{
+	background-color: #f1f1f1;
+	margin-left: 15px;
+	min-width: 150px;
+	display: none;
+	position: absolute;
+	z-index: 1
+}
+header .navbar .dropdown-content hr {
+	border: 0.5px solid #ddd;
+	margin: 0 5px;
+
+}
+header .navbar .dropdown-content a {
+	display:block;
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px
+}
+
+header .navbar .dropdown-content a:hover{background-color: #ddd;}
+header .navbar .dropdown:hover .dropdown-content{display: block; }
+
+.navbar-default .navbar-toggle:focus{ background: none;}
+.navbar-default .navbar-toggle:hover{background-color: rgba(0,0,0,0.2)}
+
+/**** end navbar *****/
+
+/**** banner *****/
+
+header .banner {
+	padding: 45px 0 ;
+}
+
+header .banner .banner-left {
+	padding-top: 110px;
+	color: #fff;
+	margin-right: px;
+}
+header .banner .banner-left h1 { 
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 50px;
+	margin: 20px 0 ;
+}
+header .banner .banner-left p:last-of-type{margin:0 50px 0 50px}
+
+header .banner .banner-left .btn-primary{
+	background-color: #fff;
+	color:#000;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 50px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+header .banner img {width:90%;margin-left: 20px;}
+/**** end banner *****/
+/**** end header Section****/ 
+
+/*** Start Section one **/ 
+
+.sectionone {margin:150px 0;position: relative}
+.sectionone .row .img-left img {
+	width: 404px;
+	opacity: 0.8;
+	border-radius: 5px;
+	
+}
+
+
+
+
+
+.sectionone .row  .text { 
+	position: absolute;
+	top:50px;
+	left:-200px;
+	padding:100px 100px 100px 80px;
+	background-color: #fff;
+	box-shadow: 0  25px 42px 0 rgba(0,0,0,0.3);
+	border-radius: 3px;
+
+}
+
+
+
+.sectionone .row  .text h2 { 
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 50px;
+	
+}
+
+.sectionone .row  .text p {font-size: 15px;color:rgba(0,0,0,0.7);line-height: 25px;}
+.sectionone .row  .text p:first-of-type{
+	margin-bottom: 30px;
+}
+
+/*** End Section one **/ 
+/*** start Section Two **/
+.sectiontwo .cover {
+	width: 100%;
+	height: 400px;
+	background: url(../images/pexels-photo-452738.jpeg);
+	background-position: -330px -250px;
+	position: relative;}
+.sectiontwo .cover .covercolor{
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+.sectiontwo .cover .covercolor .content {
+	padding-top: 150px;
+	color: #fff;
+}
+.sectiontwo .cover .covercolor .content h2 {
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+.sectiontwo .item {
+	
+	margin: 0 40px;
+	margin-top: -100px;
+}
+
+.sectiontwo .box {
+	 background: #fff;
+	padding: 20px 0;
+	box-shadow: 1px  2px 50px 0px  rgba(255,0,0,0.4);
+	border-radius: 8px;
+	position: relative;
+	z-index: 1;
+	margin:20px 10px;	
+}
+.sectiontwo .box h3{
+	color:tomato;
+	font-size: 50px;
+	font-weight: bold;
+}
+/*** end Section two ***/ 
+/*** start Section Three ***/ 
+.sectionthree .cards {
+	margin:0 50px;
+}
+
+.sectionthree {margin:100px 0 80px 0;}
+.sectionthree .Text-above h2 {margin-bottom:20px;}
+.sectionthree .cards .card {
+	border: 1px solid #ddd;
+	margin: 50px 0;
+}
+
+
+.sectionthree .cards .card .title h3 { 
+	background-color:#F6FCFC;
+	
+}
+.sectionthree .cards .center p {
+	padding: 0 50px;
+	padding-top: 50px;
+	padding-bottom: 30px;	
+}
+.sectionthree .cards .card .title h3 {
+	margin:0;
+	padding: 20px 0;
+}
+
+.sectionthree .cards .card .price { 
+	padding-bottom: 50px;
+	background-color:#F6FCFC;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%
+}
+.sectionthree .cards .card .price p{
+	margin-bottom:50px;
+	font-weight: bold;
+	font-size: 50px;
+	color:#212529;
+	padding-top: 50px;
+}
+.sectionthree .cards .card .price .btn-default { 
+	background-color:#212529;
+	color: #fff;
+	border-radius: 20px;
+	padding:10px 40px;
+	font-weight: bold;
+
+}
+/*** end Section Three ***/
+
+/**** start section four **/ 
+.sectionfour {
+	background: linear-gradient(to bottom, #dd2476, #ff512f);
+	padding:80px 0px 80px 0;
+	color:#fff;
+}
+
+.sectionfour .download h4 {
+	font-size: 50px;
+	letter-spacing: 1.5px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.sectionfour .download P{margin-bottom: 50px;padding: 0 50px;}
+.sectionfour .icons div { display: inline-block;}
+.sectionfour .icons .btn-deufalt { 
+	padding: 20px 40px 10px 40px;
+	border-radius: 40px;
+	background:#fff;
+	color:#000;
+	margin-left: 20px;
+	margin-right: 25px;
+	margin-top: 20px;
+	box-shadow:  0 1rem 3rem rgba(0,0,0,.175)!important
+}
+
+.sectionfour .icons h3 {margin:0;padding-left: 15px;}
+/**** end section four **/ 
+/**** start section five **/ 
+
+/**** End section five **/ 
+.sectionfive { 
+	margin: 100px 0;
+}
+
+.sectionfive .section-text-top { margin-bottom: 50px;}
+
+.sectionfive .section-text-top h3 { 
+	font-size:50px;
+}
+
+
+.sectionfive .cards {margin:0 20px;}
+
+.sectionfive .cards .card { 
+	border: 1px solid #ddd;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.4);
+	padding: 20px 50px;
+	margin: 30px 40px;
+}
+
+.sectionfive .cards .card img {
+	width:40%;
+	text-align: center;
+}
+
+.sectionfive .cards .card h3{
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.sectionfive .cards .card p:first-of-type {
+	margin-bottom: 40px;
+}
+
+.sectionfive .cards .card p:last-of-type{letter-spacing: 5px;}
+
+/** end section five **/ 
+
+/*** start footer ***/ 
+footer { 
+	background-color:#2F2F2F;
+	color:#fff;
+	padding-top: 50px;
+} 
+
+footer .footer p { 
+	color :	#6c757d;
+}
+
+
+footer .footer p span {color: #ff512f;}
+footer .footer hr {width: 200px;border-color:#6c757d;}
+
+footer .footer .box .color{
+	display: inline-block;
+	background:  linear-gradient(to bottom, #dd2476, #ff512f);
+	line-height: 34px;
+	padding:0 15px;
+	margin-left: -4px
+}
+
+footer .footer .form-control{
+	display: inline-block;
+	width: auto;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+footer .footer .col-md-4{
+	margin-bottom: 60px;
+}
+
+footer .footer .icon-color{
+	color: #ff512f;
+	margin-bottom: 30px;
+	margin-right: 10px;	
+}
+
+
+.sticky { 
+	position: fixed;
+	top: 0;
+	background: rgba(0,0,0,0.7) !important;
+	z-index: 9999;
+	width: 100%;
+	border-radius: 0px;
+	transition: all 1s ease;
+}
+
+
+header .sticky .navbar-nav > li > a:hover{
+	color:#ddd;
+}
+
+/******* media query *******/ 
+@media(max-width:1199px){
+	header .banner .banner-left { padding-top: 50px;}
+}
+
+@media (min-width:768px)and (max-width:991px){
+	
+	
+	.sectionone .row  .text
+	{
+		padding:50px 50px 50px 50px;
+		left:-50px;
+		top:30px;
+	}
+
+
+	
+}
+
+@media (max-width:767px){
+	.sectionone .row  .text
+	{
+		position: initial;
+		box-shadow: none;
+	}
+	.sectionone img {display: none}
+}
+
